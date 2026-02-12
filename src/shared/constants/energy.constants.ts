@@ -1,0 +1,1 @@
+export const ENERGY_FACTOR = 41000; // MJ per ton

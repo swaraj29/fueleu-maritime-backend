@@ -1,0 +1,1 @@
+export const TARGET_INTENSITY = 89.3368; // 2025 Target

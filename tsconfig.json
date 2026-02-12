@@ -2,25 +2,41 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["*"]
+      "@core/*": [
+        "core/*"
+      ],
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@adapters/*": [
+        "adapters/*"
+      ],
+      "@infrastructure/*": [
+        "infrastructure/*"
+      ]
     },
-
     "module": "commonjs",
     "target": "es2019",
-    "lib": ["es2019"],
-
+    "lib": [
+      "es2019"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "sourceMap": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "generated"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "generated"
+  ]
 }
