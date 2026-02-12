@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
+    "rootDir": ".",
     "outDir": "./dist",
     "baseUrl": "./src",
     "paths": {
@@ -15,6 +15,9 @@
       ],
       "@infrastructure/*": [
         "infrastructure/*"
+      ],
+      "@prisma/client": [
+        "../generated/prisma/client"
       ]
     },
     "module": "commonjs",
@@ -33,10 +36,10 @@
     "sourceMap": true
   },
   "include": [
-    "src"
+    "src",
+    "generated"
   ],
   "exclude": [
-    "node_modules",
-    "generated"
+    "node_modules"
   ]
 }

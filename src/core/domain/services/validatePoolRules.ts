@@ -1,4 +1,4 @@
-import { PoolMember } from "@core/domain/entities/pool";
+import { PoolMember } from "@core/domain/entities/Pool";
 
 export const validatePoolSum = (
   members: PoolMember[]
@@ -19,6 +19,11 @@ export const validatePoolSum = (
 export const validatePostPoolingState = (
   member: PoolMember
 ): void => {
+
+  // cbAfter must be defined for validation
+  if (member.cbAfter === undefined) {
+    throw new Error(`Member ${member.shipId} does not have cbAfter calculated`);
+  }
 
   // Deficit ship cannot exit worse
   if (member.cbBefore < 0 && member.cbAfter < member.cbBefore) {

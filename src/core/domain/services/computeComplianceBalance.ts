@@ -1,4 +1,4 @@
-import { Route } from "@core/domain/entities/route";
+import { Route } from "@core/domain/entities/Route";
 import { TARGET_INTENSITY } from "@shared/constants/fuel.constants";
 import { ENERGY_FACTOR } from "@shared/constants/energy.constants";
 

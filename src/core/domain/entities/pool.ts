@@ -5,9 +5,10 @@ export interface Pool {
 }
 
 export interface PoolMember {
-  id: string;
-  poolId: string;
+  id?: string;
+  poolId?: string;
   shipId: string;
   cbBefore: number;
-  cbAfter: number;
+  cbAfter?: number;
+  year?: number; // Year for the pooling period
 }
