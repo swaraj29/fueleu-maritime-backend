@@ -17,7 +17,7 @@
         "infrastructure/*"
       ],
       "@prisma/client": [
-        "../generated/prisma/client"
+        "../generated/prisma"
       ]
     },
     "module": "commonjs",

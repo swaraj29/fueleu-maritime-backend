@@ -37,8 +37,11 @@ export const createPool = async (
     validatePostPoolingState(surplus);
     validatePostPoolingState(deficit);
 
-    if (surplus.cbAfter === 0) i++;
-    if (deficit.cbAfter === 0) j--;
+    // Move pointers after processing
+    // If surplus is depleted or negative, move to next surplus
+    if (surplus.cbAfter <= 0) i++;
+    // If deficit is satisfied or positive, move to next deficit
+    if (deficit.cbAfter >= 0) j--;
   }
 
   await poolRepo.save(sorted);
