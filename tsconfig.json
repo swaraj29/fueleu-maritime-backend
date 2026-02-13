@@ -31,13 +31,15 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "sourceMap": true
   },
   "include": [
     "src",
-    "generated"
+    "generated",
+    "tests"
   ],
   "exclude": [
     "node_modules"

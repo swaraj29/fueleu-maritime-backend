@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771020243918" clover="3.2.0">
+  <project timestamp="1771020243918" name="All files">
+    <metrics statements="84" coveredstatements="83" conditionals="34" coveredconditionals="31" methods="12" coveredmethods="12" elements="130" coveredelements="126" complexity="0" loc="84" ncloc="84" packages="5" files="11" classes="11"/>
+    <package name="core.application.use-cases.banking">
+      <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="applyBank.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/banking/applyBank.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+      </file>
+      <file name="bankSurplus.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/banking/bankSurplus.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="getBankRecords.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/banking/getBankRecords.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.application.use-cases.compliance">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="computeCB.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/compliance/computeCB.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+      <file name="getAdjustedCB.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/compliance/getAdjustedCB.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.application.use-cases.pooling">
+      <metrics statements="21" coveredstatements="21" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="createPool.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/application/use-cases/pooling/createPool.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="23" count="14" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="26" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="42" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.domain.services">
+      <metrics statements="29" coveredstatements="28" conditionals="18" coveredconditionals="17" methods="5" coveredmethods="5"/>
+      <file name="computeComparison.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/domain/services/computeComparison.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+      </file>
+      <file name="computeComplianceBalance.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/domain/services/computeComplianceBalance.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="15" count="19" type="stmt"/>
+        <line num="17" count="19" type="stmt"/>
+      </file>
+      <file name="validatePoolRules.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/core/domain/services/validatePoolRules.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="12" coveredconditionals="11" methods="3" coveredmethods="3"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="8" count="148" type="stmt"/>
+        <line num="12" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="16" count="18" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="24" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="33" type="cond" truecount="3" falsecount="1"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="36" count="33" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.constants">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="energy.constants.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/shared/constants/energy.constants.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="fuel.constants.ts" path="/Users/mac/Desktop/fueleu-maritime-backend /src/shared/constants/fuel.constants.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
